@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'vDiveR'
+copyright = '2022, Tok'
+author = 'Pendy Tok, Li Chuin Chong, Evgeniia Chikina'
 
 release = '0.1'
 version = '0.1.0'

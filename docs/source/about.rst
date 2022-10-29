@@ -13,7 +13,7 @@ Herein, we present vDiveR, a DiMA wrapper implemented as a web-based application
 
 In summary, the simplicity of vDiveR makes the study of viral protein sequence diversity dynamics more accessible to a wider community of researchers. This should help better understand the dynamics of sequence change among viruses and further explore its effects on intervention strategies.
 
-.. figure:: images/flowchart_DiveR.JPG
+.. figure:: images/flowchart_DiveR.jpg
 Figure 2: Flowchart of vDiveR.
 
 

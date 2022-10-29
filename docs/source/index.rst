@@ -9,7 +9,7 @@ vDiveR is a DiMA wrapper implemented web-based application, hosted on R Shiny se
 
 Additionally, the R source code is publicly accessible from the GitHub repository at `https://github.com/pendy05/DiveR <https://github.com/pendy05/DiveR>`_ (distributed under the MIT license).
 
-.. figure:: images/DiveR_overview.JPG
+.. figure:: images/DiveR_overview.jpg
 Figure 1: vDiveR Overview.
 
 .. Hint::

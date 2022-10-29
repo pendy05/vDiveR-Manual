@@ -5,7 +5,7 @@ Diversity Motifs
 -------------------
 The figure below depicts the definition of diversity motifs via a aligned nonamer.
 
-.. figure:: images/diversityMotifs.JPG
+.. figure:: images/diversityMotifs.jpg
 Figure 2. Definitions of diversity motifs.
 
 

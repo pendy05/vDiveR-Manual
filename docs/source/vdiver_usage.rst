@@ -22,7 +22,7 @@ Other than that, vDiveR allows user to manipulate **display parameters** such as
 - **Line and Dot Size**: Line and dot size displayed on the plots.
 - **Protein Names in Order**: Determine the order of proteins displayed on plot (Please ensure the protein names provided are the same as the one used in input run!).
 
-.. figure:: images/input_parameters.JPG
+.. figure:: images/input_parameters.jpg
 Figure 3. Location of the input and display parameters at vDiveR R Shiny App.
 
 
