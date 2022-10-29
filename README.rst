@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
-=======================================
+Welcome to vDiveR Documentation!
+===============================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repo is for viral protein Diversity dynamics visualization in R (vDiveR) documentation with some basic Sphinx docs.
 
-Read the tutorial here:
+Link to the vDiveR documentation:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://vdiver-manual.readthedocs.io/
