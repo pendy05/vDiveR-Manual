@@ -10,16 +10,26 @@ vDiveR is a DiMA wrapper implemented web-based application, hosted on R Shiny se
 Additionally, the R source code is publicly accessible from the GitHub repository at `https://github.com/pendy05/DiveR <https://github.com/pendy05/DiveR>`_ (distributed under the MIT license).
 
 .. figure:: images/DiveR_overview.JPG
-Figure 1: DiveR Overview.
+Figure 1: vDiveR Overview.
 
-.. note::
+.. Hint::
 
-   This project is under active development.
-
+   A demonstration video on how to use vDiveR R Shiny App is available `here <https://youtu.be/rJlmL6Rbp6k>`_!  
+   
 Contents
---------
+----------
 
 .. toctree::
+   :maxdepth: 4
+   :glob:
+   :numbered:
 
-   usage
-   api
+   about
+   terminology
+   vdiver_usage
+   rshiny_app
+   bioconductor
+   faqs
+
+
+.. include:: support.rst
