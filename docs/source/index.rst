@@ -1,13 +1,16 @@
-Welcome to Lumache's documentation!
+Welcome to vDiveR User Manual!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+.. note::
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+   This project is under active development. 
+
+vDiveR is a DiMA wrapper implemented web-based application, hosted on R Shiny server (`https://protocol-viral-diversity.shinyapps.io/DiveR <https://protocol-viral-diversity.shinyapps.io//DiveR>`_), to ease the visualization of outputs from Diversity Motif Analyser (DiMA; `https://github.com/PU-SDS/DiMA <https://github.com/PU-SDS/DiMA>`_). vDiveR allows visualization of the diversity motifs (index, major, minor and unique) for elucidation of the underlying inherent dynamics. 
+
+Additionally, the R source code is publicly accessible from the GitHub repository at `https://github.com/pendy05/DiveR <https://github.com/pendy05/DiveR>`_ (distributed under the MIT license).
+
+.. figure:: images/DiveR_overview.JPG
+Figure 1: DiveR Overview.
 
 .. note::
 
