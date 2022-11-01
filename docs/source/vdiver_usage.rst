@@ -36,13 +36,13 @@ There are seven functions provided:
 #. **plot_correlation()**: plot correlation between entropy and total variant incidence.
 #. **plot_dynamics_proteome()**: plot dynamics of diversity motifs at proteome level (not recommended if the studied proteins do not represent the entire proteome).
 #. **plot_dynamics_protein()**: plot dynamics of diversity motifs at protein level.
-#. **plot_conservationLevel()**: plot conservation levels distribution of *k*-mer positions, which consists of 
-    - completely conserved (black) (index incidence = 100%), 
-    - highly conserved (blue) (90% ≤ index incidence < 100%), 
-    - mixed variable (green) (20% < index incidence ≤ 90%), 
-    - highly diverse (purple) (10% < index incidence ≤ 20%), and 
-    - extremely diverse (pink) (index incidence ≤ 10%).
-#. **concat_conserved_kmer()**: concatenate completely/highly conserved k-mer positions that overlapped at least one *k*-mer position or are adjacent to each other and generate the output in dataframe that suits either CSV or FASTA format.
+#. **plot_conservationLevel()**: plot conservation levels distribution of k-mer positions, which consists of: 
+    - completely conserved (index incidence = 100%; black), 
+    - highly conserved (90% ≤ index incidence < 100%; blue), 
+    - mixed variable (20% < index incidence ≤ 90%; green), 
+    - highly diverse (10% < index incidence ≤ 20%; purple), and 
+    - extremely diverse (index incidence ≤ 10%; pink).
+#. **concat_conserved_kmer()**: concatenate completely/highly conserved *k*-mer positions that overlapped at least one *k*-mer position or are adjacent to each other and generate the output in dataframe that suits either CSV or FASTA format.
 
 
 Usage
