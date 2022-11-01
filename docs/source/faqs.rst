@@ -1,6 +1,9 @@
 FAQS
 ==================
 
+.. note::
+    For technical assistance or bug report, please reach us out via GitHub (`https://github.com/pendy05/DiveR <https://github.com/pendy05/DiveR>`_). For the general correspondence, please email Dr. Asif M. Khan (`asif@perdanauniversity.edu.my <asif@perdanauniversity.edu.my>`_, `makhan@bezmialem.edu.tr <makhan@bezmialem.edu.tr>`_).
+
 1. What can I do if the elements in the plot appear to be overlapping each other due to the displayed plot size?
 
 - You may want to increase the height and/or width of the plot offered in the download option, based on your need before downloading the plot.

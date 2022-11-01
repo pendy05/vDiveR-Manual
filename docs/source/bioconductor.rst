@@ -4,10 +4,10 @@ Bioconductor Package
 Input
 -------------
 
-vDiveR Bioconductor package functions require a DiMA(v4.1.1) JSON-converted CSV dataframe as input. As DiMA stores its output in JSON format, vDiveR has also provided a JSON2CSV() function to assist users in converting DiMA output from JSON to CSV format. Each DiMA JSON output file is treated as one viral protein. If there is more than one protein to be visualized simultaneously, users are required to concatenate the CSV dataframes into one, which will eventually act as the source for subsequent data visualisation and *k*-mer concatenation.
+vDiveR Bioconductor package functions require a DiMA(v4.1.1) JSON-converted CSV dataframe as input. As DiMA stores its output in JSON format, vDiveR has also provided a JSON2CSV() function to assist users in converting DiMA output from JSON to CSV format. Each DiMA JSON output file is treated as one viral protein. If there is more than one protein to be visualized simultaneously, users are required to concatenate the CSV dataframes (Figure. 8) into one, which will eventually act as the source for subsequent data visualisation and *k*-mer concatenation.
 
 .. figure:: images/inputFile_format.JPG
-Figure 4. DiMA JSON-converted CSV Dataframe Format.
+Figure 8. DiMA JSON-converted CSV dataframe format.
 
 #. **proteinName**: name of the protein.
 #. **position**: starting position of the aligned, overlapping *k*-mer window.
@@ -30,10 +30,14 @@ Figure 4. DiMA JSON-converted CSV Dataframe Format.
 Sample Dataset
 ^^^^^^^^^^^^^^^^^^
 
-To demonstrate the functionality of vDiveR, three sample datasets (JSONsample, proteins_1host, protein_2hosts) are provided where 
+To demonstrate the functionality of vDiveR, three sample datasets (JSONsample, proteins_1host, protein_2hosts) are provided where: 
 
-1. **JSONsample** is a DiMA JSON output file which acts as the input for JSON2CSV() whereas 
-2. **proteins_1host** (consists of protein A and B from human host) and **protein_2hosts** (consists of protein A from human and bat hosts) are input for remaining functions.
+1. **JSONsample**: a DiMA JSON output file which acts as the input for JSON2CSV(),
+2. **proteins_1host** (consists of protein A and B from human host) and **protein_2hosts** (consists of protein A from human and bat hosts): input for remaining functions.
+
+
+Sample Output
+^^^^^^^^^^^^^^^^^^
 
 .. note::
     Please refer 'section 4. R Shiny App (Output)' for sample output.

@@ -3,10 +3,10 @@ Terminology
 
 Diversity Motifs
 -------------------
-The figure below depicts the definition of diversity motifs via a aligned nonamer.
+The figure below (Figure. 3) depicts the definition of diversity motifs via a aligned nonamer.
 
 .. figure:: images/diversityMotifs.jpg
-Figure 2. Definitions of diversity motifs.
+Figure 3. Definitions of diversity motifs.
 
 
 Conservation Levels
