@@ -32,6 +32,7 @@ There are seven functions provided:
 
 #. **json2csv()**: convert DiMA (v4.1.1) JSON output to JSON-converted CSV dataframe, which will act as the data source for other functions in vDiveR.
 #. **plot_incidence()**: plot entropy and total variant incidence.
+#. **plot_entropy()**: plot entropy.
 #. **plot_correlation()**: plot correlation between entropy and total variant incidence.
 #. **plot_dynamics_proteome()**: plot dynamics of diversity motifs at proteome level (not recommended if the studied proteins do not represent the entire proteome).
 #. **plot_dynamics_protein()**: plot dynamics of diversity motifs at protein level.
@@ -41,7 +42,7 @@ There are seven functions provided:
     - mixed variable (green) (20% < index incidence ≤ 90%), 
     - highly diverse (purple) (10% < index incidence ≤ 20%), and 
     - extremely diverse (pink) (index incidence ≤ 10%).
-#. **concat_conserved_kmer()**: concatenate completely/highly conserved *k*-mer positions that overlapped at least one *k*-mer position or are adjacent to each other and generate the output in dataframe that suits either CSV or FASTA format.
+#. **concat_conserved_kmer()**: concatenate completely/highly conserved k-mer positions that overlapped at least one *k*-mer position or are adjacent to each other and generate the output in dataframe that suits either CSV or FASTA format.
 
 
 Usage
@@ -72,6 +73,29 @@ Arguments:
     plot_incidence(proteins_1host)
     #example 2 (2 hosts)
     plot_incidence(protein_2hosts, host = 2)
+
+
+Arguments:
+
+- df: DiMA JSON converted csv file data
+- host: number of host (1/2)
+- proteinOrder: order of proteins displayed in plot
+- kmer_size: size of the *k*-mer window
+- ymax: maximum y-axis
+- line_dot_size: size of the line and dot in plot
+- wordsize: size of the wordings in plot
+
+**2.plot_entropy()**
+
+.. code-block::
+
+    #default arguments
+    plot_entropy(df,host = 1,proteinOrder = "",kmer_size = 9,ymax = 10,line_dot_size = 2,wordsize = 8)
+    
+    #example 1 (1 host)
+    plot_entropy(proteins_1host)
+    #example 2 (2 hosts)
+    plot_entropy(protein_2hosts, host = 2)
 
 
 Arguments:
